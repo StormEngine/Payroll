@@ -31,6 +31,10 @@ namespace Payroll
         public string Manager
         { get; set; }
 
+        public Delegate GetCalculator();
+        
+        public void SetCalculator(Delegate calculator);
+
         public EmploymentStatus Type
         { get; set; }
 
