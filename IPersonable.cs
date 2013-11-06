@@ -31,8 +31,9 @@ namespace Payroll
         public DateTime DOB
         { get; set; }
 
-        public Object Address
+        public ILocatable Address
         { get; set; }
 
     }  // END interface IPersonable
+
 }   //  END namespace Payroll
